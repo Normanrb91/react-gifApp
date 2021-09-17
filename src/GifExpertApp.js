@@ -11,9 +11,9 @@ export const GifExpertApp = () => {
 
             <>
             {
-            categories  ? (
-                <div>
-                    <h2>GifExpertApp</h2>
+            categories ? (
+                <div className="container ">
+                    <h2 className="mt-5 mb-3">Gif App</h2>
                     <AddCategory setCategories={setCategories} />
                     <hr />
                     {
@@ -21,11 +21,10 @@ export const GifExpertApp = () => {
                     }
                 </div>
             ) :
-                <div>
-                    <h2>GifExpertApp</h2>
+                <div className="container">
+                    <h2 className="mt-5 mb-3">Gif App</h2>
                     <AddCategory setCategories={setCategories} />
                     <hr />
-
                 </div>
             }
 

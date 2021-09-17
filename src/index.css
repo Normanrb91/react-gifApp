@@ -2,37 +2,22 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-    padding: 60px;
-}
-
-input{
-    width: 100%;
-    font-size: 1.2rem;
-    color: gray;
-}
 
 .card-grid{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 20px;
 }
+
 
 .card{
-    align-content: center;
-    border: 1px solid gray;
-    border-radius: 6px;
-    overflow: hidden;
-    margin-bottom: 10px;
-    margin-right: 10px;
-}
-
-.card p{
-    padding: 5px;
-    text-align: center;
+    width: 400px;
 }
 
 .card img{
-    max-height: 170px;
+    height: 200px;
+    width: 300px;
 }
 

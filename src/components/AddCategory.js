@@ -23,7 +23,9 @@ export const AddCategory = ({setCategories}) => {
 
     return (
         <form onSubmit = {handleSubmit}>
-            <input 
+            <input
+                className="form-control"
+                placeholder="Buscar Gifs"
                 type="text"
                 value = {inputValue}
                 onChange = {handleInputChange}
